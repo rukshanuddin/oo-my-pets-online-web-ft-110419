@@ -25,7 +25,7 @@ class Owner
   end
 
   def cats
-    Cats.all.find { |cat| cat.owner.name == self.name }
+    Cat.all.find { |cat| cat.owner.name == self.name }
   end
 
 end
