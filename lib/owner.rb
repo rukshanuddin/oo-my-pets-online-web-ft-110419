@@ -25,7 +25,7 @@ class Owner
   end
 
   def cats
-    Cat.all.find { |cat| cat if cat.owner.name == self.name  }
+    self.all.find {|artist| artist.name == name }
   end
 
 end
