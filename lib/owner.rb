@@ -53,7 +53,7 @@ class Owner
     self.dogs.each {|pupper| pupper.mood = "nervous"}
   end
 
-  def list_pet
+  def list_pets
     self.cats
   end
 
